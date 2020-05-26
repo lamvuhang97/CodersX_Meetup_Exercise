@@ -1,0 +1,62 @@
+.subscribe {
+  color: white;
+  background-color: #00455d;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.subscribe .left {
+  margin: 80px 0px 0px 250px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.subscribe .left .title-1 {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.subscribe .left .title-2 {
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.subscribe .left .list ul {
+  line-height: 2;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.subscribe .left .list i {
+  color: blue;
+}
+
+.subscribe .right {
+  padding-left: 20px;
+  padding-top: 185px;
+}
+
+.subscribe .right .image img {
+  width: 595px;
+  padding-left: 50px;
+  margin-bottom: -7px;
+}
+
+.subscribe .right .content .content-1 {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.subscribe .right .content h1 {
+  display: inline;
+}
+
+.subscribe .right .content .content-2 {
+  float: left;
+}

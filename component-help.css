@@ -1,0 +1,31 @@
+.help-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.help-item .card img {
+  width: 271px;
+  border-radius: 10px;
+}
+
+.help-item .card .card-title {
+  padding: 20px 0px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.help-item .help-item-content {
+  font-size: 14px;
+  padding-bottom: 20px;
+  color: #999;
+}
+
+.help-item .link {
+  color: #00a2c7;
+}
