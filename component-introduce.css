@@ -1,0 +1,74 @@
+.introduce {
+  background-color: #00455d;
+  color: white;
+  padding: 20px 250px;
+}
+
+.introduce .title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+.introduce .slide .slide-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.introduce .slide .slide-item img {
+  border-radius: 10px;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+.introduce .slide .content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  justify-content: center;
+}
+
+.introduce .slide .content .content-item {
+  display: block;
+  padding-bottom: 30px;
+}
+
+.introduce .slide .content .content-1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.introduce .slide .content .content-2 {
+  font-size: 14px;
+}
+
+.introduce .slide .content .content-3 {
+  font-size: 10px;
+}
+
+.introduce .slide-button {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introduce .slide-button .btn {
+  background-color: #00455d;
+  border: none;
+  color: #aaa;
+  font-size: 20px;
+}
+
+.introduce .slide-button .btn:hover {
+  color: white;
+}
+
+.introduce .slide-button .dot {
+  color: #aaa;
+  font-size: 10px;
+}
+
+.introduce .slide-button .dot i {
+  padding: 0px 2px;
+}
