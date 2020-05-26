@@ -1,0 +1,47 @@
+.groupdo-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.groupdo-item .card {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.groupdo-item .image img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.groupdo-item .card .intro {
+  padding: 20px 50px 20px 10px;
+  font-size: 14px;
+}
+
+.groupdo-item .card .intro .title {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.groupdo-item .card .intro .content {
+  padding-bottom: 40px;
+}
+
+.groupdo-item .card .intro .link {
+  color: #00a2c7;
+}
+
+.groupdo-item .card .intro .link i {
+  padding-left: 5px;
+}
+
+.groupdo-item .card:hover {
+  transform: translate(-5px 0px);
+  transition: 0.5;
+  box-shadow: 3px 3px 5px 0px #eee;
+}
