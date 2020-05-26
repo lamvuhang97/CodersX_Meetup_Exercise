@@ -1,0 +1,31 @@
+.ready {
+  background-image: url("image/last-call@1x.1d361bd9.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 60px 200px;
+  margin: 50px 250px;
+  text-align: center;
+}
+
+.ready .title {
+  font-size: 24px;
+  color: white;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.ready .button {
+  background-color: #f65858;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 145px;
+  height: 34px;
+  font-size: 12px;
+  padding: 10px 50px;
+  opacity: 1;
+}
+
+.ready .button:hover {
+  opacity: 0.9;
+}
