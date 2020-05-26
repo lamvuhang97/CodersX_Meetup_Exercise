@@ -1,0 +1,28 @@
+.sticky {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 15px 250px;
+}
+
+.sticky .content {
+  font-size: 14px;
+}
+
+.sticky .button {
+  background-color: #f65858;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 115px;
+  height: 34px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.sticky .button:hover {
+  background-color: rgba(246, 88, 88, 0.9);
+}

@@ -1,0 +1,92 @@
+.footer {
+  background-color: #353e48;
+  color: white;
+  font-size: 14px;
+}
+
+.footer .top {
+  padding: 30px 250px;
+}
+
+.footer .top .text {
+  padding-bottom: 30px;
+}
+
+.footer .top a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer .top .information {
+  border-top: 1px solid #eee;
+}
+.footer .top .information a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer .top .information ul {
+  list-style-type: none;
+  line-height: 2.5;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer .top .information {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.footer .top .information .follow {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .top .information .follow .text-follow {
+  padding: 10px 10px 15px;
+}
+
+.footer .top .information .follow .network {
+  margin-bottom: 20px;
+}
+.footer .top .information .follow .network a {
+  padding: 0px 10px;
+}
+
+.footer .top .information .follow .language select {
+  margin-left: 10px;
+  width: 268px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.footer .top .information .follow .download {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.footer .top .information .follow .download img {
+  width: 125px;
+  padding: 10px;
+}
+
+.footer .bottom {
+  background-color: #2f363f;
+  padding: 10px 250px;
+  line-height: 3;
+  font-size: 12px;
+}
+
+.footer .bottom ul {
+  list-style: none;
+}
+
+.footer .bottom li::after {
+  content: attr(dadata-separator);
+}
