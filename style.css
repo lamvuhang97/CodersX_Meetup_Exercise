@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.getstarted {
+  margin: 100px 250px;
+}
+
+.organize {
+  padding: 50px 250px;
+}
+.organize .organize-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.organize .organize-list {
+  display: flex;
+  justify-content: space-between;
+}
+.organize .organize-list .organize-item {
+  padding: 0px 10px;
+}
+
+.groupdo {
+  padding: 50px 250px;
+}
+.groupdo .groupdo-list {
+  display: flex;
+  justify-content: space-between;
+}
+.groupdo .groupdo-list .groupdo-item {
+  padding: 0px 5px;
+}
+.groupdo .groupdo-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+.groupdo .groupdo-introduce {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.step {
+  padding: 50px 250px;
+}
+.step .step-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.step .step-list {
+  display: flex;
+  justify-content: space-between;
+}
+.step .step-list .step-item {
+  padding: 0px 5px;
+}
+.step .step-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+.step .step-introduce {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.inspiration .inspiration-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+.inspiration .inspiration-introduce {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.inspiration {
+  padding: 50px 250px;
+}
+.inspiration .inspiration-list {
+  display: flex;
+  justify-content: space-between;
+}
+.inspiration .inspiration-list .inspiration-item {
+  padding: 0px 5px;
+}
+
+.help {
+  padding: 50px 250px;
+}
+.help .help-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+.help .help-content {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.help .help-list {
+  display: flex;
+  justify-content: space-between;
+}
+.help .help-list .help-item {
+  padding: 0px 7px;
+}
+
+.question .question-title {
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+.question {
+  padding: 50px 250px;
+}
+.question .question-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.question .question-list .question-item {
+  margin: 0px 10px;
+}
+
+.sticky {
+  background-color: white;
+  margin-top: 70px;
+  position: sticky;
+  bottom: 0px;
+}
